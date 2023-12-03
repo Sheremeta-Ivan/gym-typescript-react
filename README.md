@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+Gym TypeScript React Site
+This is the README for the Gym TypeScript React site located at https://gym-typescript-react-46f.pages.dev/.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
+This is a gym website built with TypeScript and React. It is a responsive, mobile-friendly site that allows users to view information about the gym, class schedules, trainers, membership options, and more.
 
-Currently, two official plugins are available:
+Features
+Home page with hero image, information about the gym, and call-to-action buttons
+Class Schedule page showing fitness class times and descriptions
+Trainers page profiling the gym's personal trainers
+Membership Options page outlining membership tiers and pricing
+Fully responsive design working well on all devices
+Developed with TypeScript and React
+Installation
+The site is currently hosted on Vercel and does not require installation. The code can be forked from GitHub if you wish to run it locally:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fork and clone the repo
+Run npm install
+Run npm run dev
+Open http://localhost:3000 to view
+Contributions
+Contributions and ideas for improving the site are welcome! Please open an issue or submit a pull request on the GitHub repo.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Let me know if you would like any additional information in this README! I'm happy to update it as needed.
